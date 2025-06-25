@@ -1,9 +1,10 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import { fetchDuckDBTables } from "@/app/lib/duckdb_api";
+
 import { Card, CardContent } from "@/components/ui/card";
 import { Skeleton } from "@/components/ui/skeleton";
+import { fetchDuckDBTables } from "@/lib/duckdb_api";
 
 export default function TableList() {
   const [tables, setTables] = useState<string[]>([]);
