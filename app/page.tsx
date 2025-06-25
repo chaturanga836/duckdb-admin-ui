@@ -1,4 +1,5 @@
-import TableList from "@/app/components/TableList";
+import TableList from "./components/TableList";
+
 
 export default function Home() {
   return (
