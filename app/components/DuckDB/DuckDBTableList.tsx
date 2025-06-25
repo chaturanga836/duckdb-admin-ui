@@ -6,7 +6,8 @@ import { Table, TableHeader, TableBody, TableRow, TableHead, TableCell } from "@
 import { AlertCircle } from "lucide-react";
 import { Alert, AlertTitle, AlertDescription } from "@/components/ui/alert";
 import { Skeleton } from "@/components/ui/skeleton";
-import { fetchDuckDBTables, fetchTableRowCount } from "@/app/lib/duckdb_api";
+import { fetchDuckDBTables, fetchTableRowCount } from "@/lib/duckdb_api";
+
 // import { fetchDuckDBTables, fetchTableRowCount } from "@/lib/duckdb_api";
 
 export default function DuckDBTableList() {
